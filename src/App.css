@@ -1,0 +1,93 @@
+.page {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+.page-header {
+  margin-bottom: 1.75rem;
+}
+
+.page-header h1 {
+  margin: 0 0 0.35rem;
+  font-size: 1.75rem;
+  color: var(--text-h);
+}
+
+.page-header p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
+.status {
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.status-loading {
+  color: var(--text);
+}
+
+.status-error p {
+  margin: 0 0 0.5rem;
+}
+
+.status-detail {
+  font-size: 0.9rem;
+  color: var(--text);
+  opacity: 0.85;
+}
+
+.status-error button {
+  margin-top: 0.75rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text-h);
+  font: inherit;
+  cursor: pointer;
+}
+
+.status-error button:hover {
+  border-color: var(--accent);
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.post {
+  padding: 1.1rem 1.15rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.post-id {
+  display: inline-block;
+  margin-bottom: 0.4rem;
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--accent);
+}
+
+.post h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+  line-height: 1.35;
+  color: var(--text-h);
+  text-transform: capitalize;
+}
+
+.post p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--text);
+}
